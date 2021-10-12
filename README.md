@@ -13,7 +13,9 @@ Le lien des requêtes : localhost:8080/api
 
   GET:
     /listApprenants
+    
     /getInfoApprenantById/{donnerID}
+    
     /isLoginPasswordExist?login={donnerLogin}&password={donnerPassword} (Vérifie le login et le mot de pass de l'apprenant)
     
   POST:
